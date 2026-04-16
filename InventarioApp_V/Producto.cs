@@ -10,8 +10,6 @@ namespace InventarioApp_V
 
 { 
 	internal class Producto { 
-
-		}
 		
 
 	public string 
