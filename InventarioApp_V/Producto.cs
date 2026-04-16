@@ -8,27 +8,31 @@ using System.Windows.Forms;
 
 namespace InventarioApp_V
 
-{ internal class Producto
+{ 
+	internal class Producto { 
 
 		}
+		
 
-public string 
-	Codigo { get; set; }
-public string
-	Nombre { get; set; }
-public double
-	Precio { get; set; }
-public int
-	Cantidad { get; set; }
+	public string 
+		Codigo { get; set; }
+	public string
+		Nombre { get; set; }
+	public double
+		Precio { get; set; }
+	public int
+		Cantidad { get; set; }
 
 
 //Constructor
-public Producto
-	(string cpdigo, string nombre, double precio, int cantidad)
-{
-	Codigo = codigo;
-	nombre = nombre;
-	Precio = precio;
-	cantidad = cantidad;
-}
+		public Producto
+			(string codigo, string nombre, double precio, int cantidad)
+		{
+			Codigo = codigo;
+            Nombre = nombre;
+			Precio = precio;
+            Cantidad = cantidad;
+		}
 
+	}
+}
