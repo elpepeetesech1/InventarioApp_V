@@ -28,9 +28,9 @@ namespace InventarioApp_V
 			(string codigo, string nombre, double precio, int cantidad)
 		{
 			Codigo = codigo;
-			nombre = nombre;
+            Nombre = nombre;
 			Precio = precio;
-			cantidad = cantidad;
+            Cantidad = cantidad;
 		}
 
 	}
